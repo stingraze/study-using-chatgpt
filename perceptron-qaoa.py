@@ -18,8 +18,8 @@ def maxcut_value(graph, solution):
             cut_value += weight
     return cut_value
 
-# Generate synthetic data (20 random graphs with 5 nodes)
-num_graphs = 200
+# Generate synthetic data (50 random graphs with 5 nodes)
+num_graphs = 50
 maxcut_solutions = []
 maxcut_values = []
 threshold = 4
